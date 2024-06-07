@@ -8,7 +8,10 @@ function App() {
     const storedTodos = JSON.parse(localStorage.getItem('todos'));
         if(storedTodos){
       return storedTodos;
-        }   
+        } 
+        else{
+          return [];
+        }  
   });
   const [label,setLabel]=useState(true);
   const [editid,setEditId]=useState(0);
