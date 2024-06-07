@@ -5,7 +5,7 @@ function App() {
 
   const [inputList,setInputList]=useState("");
   const [items,setItems]=useState(()=>{
-    const storedTodos = JSON.parse(localStorage.getItem('todos'))?true:false;
+    const storedTodos = (JSON.parse(localStorage.getItem('todos'))!=="undefined")?true:false;
         if(storedTodos){
       return storedTodos;
         } 
