@@ -1,0 +1,140 @@
+.border-default{
+    border:1px solid black;
+}
+
+.shadow-default{
+    box-shadow: 5px 6px 30px rgba(0,0,0,.4);
+}
+
+/* .warncl:hover{
+    color:red;
+}
+.succcl:hover{
+    color:#49CD14;
+}
+.succbg:hover{
+    background:#49CD14;
+    color:white;
+}
+.warnbg:hover{
+    background:red;
+    color:white;
+    
+
+} */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C1C1C1;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar:horizontal{
+    height: 8px;
+    
+  }
+  ::-webkit-scrollbar-track:horizontal{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:horizontal{
+    background: #C1C1C1;
+          border-radius: 10px;
+          
+      }
+
+.list-cancel-set{
+    top:-6px;
+    right:0px;
+}
+.focusbg{
+    background:red;
+}
+.focusbg:hover{
+    background:white;
+    box-shadow:1px 1px 20px white;
+}
+.focuscl:hover{
+    text-shadow:1px 1px 20px white;
+}
+.bgroot{
+    background:linear-gradient(65deg,
+    #625C67,#39515F,#244050,#14364A,#041B3C);
+}
+.iteminput{
+    outline:none;
+}
+
+.bgbtn{
+    background:#F0F0F0;
+    color:black;
+}
+.focuscl{
+color:#F0F0F0;
+}
+
+.bglistbox{
+    background:rgba(0,0,0,.2
+    )
+}
+
+.itembox{
+    max-height:650px;
+}
+
+@media screen and (max-width:600px){
+    .rootheading{
+        font-size:3em;
+        text-align:center;
+    }
+    
+}
+@media screen and (max-width:400px){
+    .pos-static{
+        position:static;
+    }
+    .todobox{
+        
+        padding:10px;
+    }
+    .listbox{
+        flex-direction:column;
+        justify-content:flex-end;
+        align-items:flex-end;
+       
+    }
+    .listtext{
+        width:100%;
+        
+    }
+    .iteminput{
+        width:90%;
+    }
+    .rootheading{
+        font-size:2.4em;
+        text-align:center;
+    }
+    .bgroot{
+        padding:5px 0px;
+    }
+    .itembox{
+        padding:5px 15px;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:250px){
+    .listbox{
+        flex-wrap:wrap;
+    }
+}
