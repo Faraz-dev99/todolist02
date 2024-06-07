@@ -91,7 +91,7 @@ function editsetup(id,text){
           <div className='flex flex-col px-5 overflow-auto 
           
            items-center  itembox gap-5' id='listid'>
-            {items.map((e,index)=>{
+            {items?.map((e,index)=>{
               return <Items 
               key={index}
               id={index}
